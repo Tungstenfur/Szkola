@@ -1,0 +1,4 @@
+DrużynaA,DrużynaB,3,1
+DrużynaC,DrużynaD,2,2
+DrużynaA,DrużynaC,1,0
+DrużynaB,DrużynaD,0,3

@@ -43,10 +43,10 @@ while True:
         for ksiazka in ksiazki:
             if tytul in ksiazka:
                 conf=input("Czy na pewno chcesz usunąć książkę? (t/N): ")
-                if conf.lower=="t":
+                if conf=="t":
                     ksiazki.remove(ksiazka)
                     print("Książka usunięta z katalogu")
-            input("Naciśnij Enter aby kontynuować")
+        input("Naciśnij Enter aby kontynuować")
     elif op=="5":
         with open('biblioteka.json', 'w') as file:
             json.dump(ksiazki, file)
